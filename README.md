@@ -20,4 +20,4 @@ pip install -r modules.txt
 
 ## How to use the docker container
 
-You can download the dockerfile and modify it so it matches your needs, or you can download the image from [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+You can download the dockerfile and modify it so it matches your needs, or you can download the image from [here](https://hub.docker.com/repository/docker/mapachana/python3.10-with-poetry).
