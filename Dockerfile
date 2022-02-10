@@ -8,7 +8,7 @@ WORKDIR /app
 COPY ./modules.txt /app/test/
 
 
-RUN apk update; ln -s /usr/bin/python /usr/bin/python3.10; addgroup -S testgroup && adduser -S test -G testgroup
+RUN apk update; apk upgrade; ln -s /usr/bin/python /usr/bin/python3.10; addgroup -S testgroup && adduser -S test -G testgroup
 USER test
 WORKDIR /app/test
 
